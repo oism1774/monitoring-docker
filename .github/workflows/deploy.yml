@@ -27,5 +27,5 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
-            cd opt/stacks/monitoring-stack
+            cd /opt/stacks/monitoring-stack
             docker compose up -d
