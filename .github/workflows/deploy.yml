@@ -29,5 +29,5 @@ jobs:
           script: |
             cd /opt/stacks/monitoring-stack
             echo "GF_USER=${{ secrets.GF_USER }}" > .env
-            echo "GF_PASSWORD=${{ secrets.GF_PASSWORD}}" > .env
+          echo "GF_PASSWORD=${{ secrets.GF_PASSWORD}}" >> .env
             docker compose up -d
