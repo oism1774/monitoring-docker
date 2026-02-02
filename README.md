@@ -10,7 +10,7 @@ The stack is built with Docker Compose and provides real-time infrastructure vis
 
 ## 🛠 Technology Stack
 * **Runtime:** Docker / Docker Compose
-* **OS:** Linux (Ubuntu 22.04 LTS tested)
+* **OS:** Linux (Ubuntu 24.04 LTS tested)
 * **Monitoring:** Prometheus, Grafana, Node Exporter
 
 ## 📦 Deployment
