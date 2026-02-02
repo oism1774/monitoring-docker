@@ -22,9 +22,9 @@ The stack is built with Docker Compose and provides real-time infrastructure vis
    ```
 
 2. Start the stack:
-```
-docker-compose up -d
-```
+   ```
+   docker-compose up -d
+   ```
 
 3. Create a .env file from .env.example and fill in your credentials.
 
