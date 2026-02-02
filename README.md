@@ -22,10 +22,14 @@ The stack is built with Docker Compose and provides real-time infrastructure vis
    ```
 
 2. Start the stack:
-   docker-compose up -d
+```
+docker-compose up -d
+```
 
-3. Access the services:
-   * **Grafana:** http://localhost:3000 (You should create .env file to be able use it)
+3. Create a .env file from .env.example and fill in your credentials.
+
+4. Access the services:
+   * **Grafana:** http://localhost:3000
    * **Prometheus:** http://localhost:9090
 
 ## 📊 Configuration Details
